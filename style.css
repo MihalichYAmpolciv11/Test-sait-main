@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color:linear-gradient(180deg, rgb(18, 1, 250), #07b3f7);
+    background:linear-gradient(180deg, rgb(18, 1, 250), #07b3f7);
     color:royalblue;
 
     font-size: 15px;
@@ -20,6 +20,52 @@ body {
     text-transform: uppercase;
 
 }
+.container{
+    max-width: 88%;
+    margin:auto;
+}
+
 .social{
-   background: black; 
+   background: rgb(253, 253, 253);
+   border: 5px solid rgb(9, 255, 0); 
+}
+#avatar{
+    border-radius: 100px;
+}
+.box-model > div{
+     background: green;
+     height: 10px;
+}
+a {
+    color:green;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(255, 0, 0);
+}
+
+.bg-yellow {
+    background: yellow;
+}
+
+.bg-red {
+    background: violet;
+}
+
+.bg-green {
+    background: yellowgreen;
+}
+
+.bg-blue {
+    background: rgb(0, 225, 255);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
 }
